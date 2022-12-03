@@ -1,0 +1,49 @@
+
+main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+aside {
+    padding: 1vh;
+    align-items: center;
+    margin: 3vh;
+    text-align: center;
+}
+
+aside img {
+    box-shadow: 5px 4px 4px 3px;
+}
+
+
+main article {
+    padding: 4vh;
+    line-height: 2.5em;
+    text-align: justify;
+}
+
+article h2 {
+    text-align: center;
+    padding: 2vh;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px){
+    main {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    main article {
+        line-height: 4em;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    main article {
+        line-height: 5em;
+    }
+}
