@@ -1,19 +1,4 @@
 
-
-/*main div {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    justify-content: center;
-    padding: 2vh;
-    align-items: center;
-    border: solid;
-}
-
-img {
-    border: solid black;
-    border-radius: 2vh;
-}*/
-
 main div {
     display: grid;
     grid-template-columns: repeat(10, 1fr);

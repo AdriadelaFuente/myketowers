@@ -10,7 +10,7 @@ header {
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
     background-size: 10vh;
-    background-color: rgb(255, 238, 184);
+    background-color: #6E85B7;
 }
 
 nav {
@@ -57,7 +57,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 5vh;
-    background-color: burlywood;
+    background-color: #F8F9D7;
     font-size: 1.5em;
 }
 
@@ -85,8 +85,9 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 2vh;
-    background-color: beige;
+    background-color: #B2C8DF;
 }
+
 
 h3 {
     font-family: monospace;

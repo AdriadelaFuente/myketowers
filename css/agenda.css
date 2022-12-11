@@ -1,11 +1,30 @@
 
-main section {
-    border: solid;
-}
-
 table {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    margin: 2vh;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    margin: 1vh;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 5vh;
+    background: linear-gradient(45deg, #ffffff 0%, #bddfff 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-width: 450px) {
+    table {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    table {
+        font-size: 2.2em;
+    }
 }
